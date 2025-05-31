@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-d0tds9je5dus73fpfbbg-a:5432/movies_8j2n
+    username: user
+    password: gG9BnCcqzPWKoGQgvyCoqGkbOKX9L9Yp
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret: X8DJ29kshf2n@x9!21#jKD82sM1ksL93
+  expiration-time: 3600000
